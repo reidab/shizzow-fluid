@@ -1,0 +1,196 @@
+/* These rules hide the country select field to save space. Comment them out to show it again. */
+
+/* -- Begin Country Select Hiding --- */
+
+#locator_bar td + td + td {
+	display: none;
+}
+
+#locator_bar td + td + td + td{
+	display: block;
+	padding: 1em 1em 0 0 !important;
+	margin-bottom: 1em !important;
+}
+
+.inputTextSmall {
+	width: 120px !important;
+}
+
+/* --- End Country Select Hiding */
+
+body, 
+#content, 
+#header, 
+#page,
+#list .message,
+#list > div {
+	background: #fff !important;
+}
+
+body {
+	margin-bottom: 300px !important;
+}
+
+#header {
+	position: fixedh;
+	padding: 1em 0;
+	height: 50px !important;
+}
+
+#cta, 
+#main_search, 
+#content-primary > h2, 
+#footer, 
+#location-box h3,
+#location-box + #list h1,
+#tagline,
+#pdx-gfx {
+	display: none;
+}
+
+#content-secondary {
+	float: none !important;
+	width: inherit !important;
+	padding: 0 !important;
+	max-width: 400px;
+}
+
+#header h1 a {
+	background-image: url('http://m.shizzow.com/images/mobile/shizzow_color_mobile.jpg') !important;
+	width: 166px;
+	height: 50px;
+}
+#content-primary,
+#content {
+	padding: 0 !important;
+}
+
+#content-primary > h3 {
+	font-size: 1em !important;
+	position: absolute;
+	top: 1.5em;
+	margin-left: 200px !important;
+	right: 1em;
+	padding: 0;
+}
+
+#content-primary > h3 a {
+	display: block;
+}
+
+#page {
+	padding: 0 1em 1em !important;
+}
+
+#list {
+	border-top: 1px solid #ccc;
+	padding-top: .5em;
+	margin-top: 1em;
+}
+
+#list input.button_delete {
+	float: right !important;
+	position: inherit !important;
+}
+
+#page, #content, #map,
+#content-primary,
+#content-primary #list .list-item-top p,
+#content-primary #list .list-item p, 
+#content-primary #list .list-item-top p.message,
+#content-primary #list .list-item p.message {
+	width: inherit !important;
+}
+
+#content-primary #list .list-item-top p,
+#content-primary #list .list-item p {
+	font-size: 1.1em  !important;
+}
+
+
+#list > h1 {
+	font-size: 1.5em !important;
+}
+
+#content-primary > h1, #content-primary > h1 + table {
+	display: none;
+}
+
+#list .message {
+	padding: 0 !important;
+}
+
+#list .list-item,
+#list .list-item-top {
+	padding: 0 0 .5em !important;
+	margin: 0 0 .5em !important;
+	border-bottom: 1px solid #ccc;
+}
+
+#content-primary #location-box {
+	padding: 0 1em 1em  !important;
+	background: #d4e6f7 !important;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	min-width: 380px;
+	-webkit-box-shadow: 0 -3px 3px #888;
+}
+
+#location-box label {
+	color: #666 !important;
+}
+
+#locator_bar table,
+#locator_bar tbody,
+#locator_bar tr,
+#locator_bar td {
+	display: block;
+}
+
+#locator_bar td {
+	padding: 1em 1em 0 0 !important;
+	float: left;
+}
+
+#locator_bar td + td + td {
+	clear: left;
+	padding: .5em 1em 1em 0 !important;
+}
+
+#locator_bar td + td + td + td{
+	clear: none;
+}
+
+#location-box > form {
+	clear: both;
+	border-top: 1px solid #ccc;
+	margin-top: .5em !important;
+	padding-top: .5em !important;
+	width: 100%;
+}
+
+#location-box select {
+	width: 170px !important;
+}
+
+#messages div {
+	margin: 0 !important;
+	width: inherit !important;
+	border: 0 !important;
+	font-size: 1em !important;
+}
+
+#content-primary img[src="/images/home_main_1.jpg"] 
+{
+	display: none;
+}
+
+.home-sidebar {
+	margin-top: 60px;
+}
+
+#user-box, #location-box {
+	margin: 0 !important;
+}
